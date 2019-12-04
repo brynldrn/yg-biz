@@ -1,0 +1,30 @@
+uuid: c95b99ef-a06a-471e-934c-7d694a7923dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.all_posts
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__all_posts_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:all_posts-block_1'
+settings:
+  id: 'views_block:all_posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false
+    context_mapping: {  }
