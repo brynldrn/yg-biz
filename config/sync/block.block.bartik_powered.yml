@@ -1,6 +1,6 @@
 uuid: 9d9e689b-1246-43f5-a3ec-15ca4a68bf32
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,12 +11,12 @@ _core:
 id: bartik_powered
 theme: bartik
 region: footer_fifth
-weight: 10
+weight: -8
 provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
-  label: 'Powered by Drupal'
+  label: "Powered by Drupal"
   provider: system
-  label_display: '0'
-visibility: {  }
+  label_display: "0"
+visibility: {}
