@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.post.field_image
     - node.type.post
   module:
-    - image
     - text
     - user
 id: node.post.default
@@ -23,17 +22,17 @@ content:
     third_party_settings: {  }
     region: content
   field_image:
+    type: entity_reference_entity_view
     weight: 102
-    label: above
+    label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: image
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden: {  }
