@@ -5,10 +5,9 @@ dependencies:
   config:
     - field.field.node.post.body
     - field.field.node.post.field_image
-    - image.style.thumbnail
     - node.type.post
   module:
-    - image
+    - media_library
     - path
     - text
 id: node.post.default
@@ -32,12 +31,11 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_image:
+    type: media_library_widget
     weight: 122
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
-    type: image_image
     region: content
   path:
     type: path
