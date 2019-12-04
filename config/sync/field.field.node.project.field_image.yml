@@ -1,19 +1,19 @@
-uuid: 5828ab4e-447c-4e64-955e-5b6dfdece81c
+uuid: fa1a93b6-2472-479e-9b4e-756fe2b5ea50
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_image
     - media.type.image
-    - node.type.post
-id: node.post.field_image
+    - node.type.project
+id: node.project.field_image
 field_name: field_image
 entity_type: node
-bundle: post
+bundle: project
 label: Image
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

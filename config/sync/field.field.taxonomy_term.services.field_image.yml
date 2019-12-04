@@ -1,18 +1,18 @@
-uuid: 5828ab4e-447c-4e64-955e-5b6dfdece81c
+uuid: 88b6fd3e-c7dc-4ab6-bd1b-7fcdf55042e8
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
+    - field.storage.taxonomy_term.field_image
     - media.type.image
-    - node.type.post
-id: node.post.field_image
+    - taxonomy.vocabulary.services
+id: taxonomy_term.services.field_image
 field_name: field_image
-entity_type: node
-bundle: post
+entity_type: taxonomy_term
+bundle: services
 label: Image
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
