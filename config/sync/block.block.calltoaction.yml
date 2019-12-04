@@ -3,23 +3,23 @@ langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:dbd1f2b7-702e-4218-9129-c4cdf0198970'
+    - "block_content:basic:dbd1f2b7-702e-4218-9129-c4cdf0198970"
   module:
     - block_content
   theme:
     - bartik
 id: calltoaction
 theme: bartik
-region: footer_second
-weight: 0
+region: footer_first
+weight: -8
 provider: null
-plugin: 'block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970'
+plugin: "block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970"
 settings:
-  id: 'block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970'
-  label: 'Call to Action'
+  id: "block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970"
+  label: "Call to Action"
   provider: block_content
   label_display: visible
   status: true
-  info: ''
+  info: ""
   view_mode: full
-visibility: {  }
+visibility: {}
