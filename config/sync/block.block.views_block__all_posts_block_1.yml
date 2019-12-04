@@ -6,22 +6,22 @@ dependencies:
     - system
   theme:
     - bartik
-id: views_block__all_posts_block_1
+id: views_block__posts_block_1
 theme: bartik
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:all_posts-block_1'
+plugin: "views_block:posts-block_1"
 settings:
-  id: 'views_block:all_posts-block_1'
-  label: ''
+  id: "views_block:posts-block_1"
+  label: ""
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: ""
   items_per_page: none
 visibility:
   request_path:
     id: request_path
     pages: /blog
     negate: false
-    context_mapping: {  }
+    context_mapping: {}
