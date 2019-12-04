@@ -8,7 +8,7 @@ dependencies:
   module:
     - node
     - user
-id: all_posts
+id: posts
 label: Posts
 module: views
 description: ''
