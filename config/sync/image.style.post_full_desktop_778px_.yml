@@ -1,0 +1,15 @@
+uuid: cbe1516f-0d16-42f2-807f-851b7e6032ad
+langcode: en
+status: true
+dependencies: {  }
+name: post_full_desktop_778px_
+label: 'Post Full - Desktop (778px)'
+effects:
+  6884edbc-35fd-4dc5-a503-d2ed39748c56:
+    uuid: 6884edbc-35fd-4dc5-a503-d2ed39748c56
+    id: image_scale
+    weight: 1
+    data:
+      width: 778
+      height: null
+      upscale: false

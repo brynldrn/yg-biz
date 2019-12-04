@@ -1,0 +1,30 @@
+uuid: ca4835d4-89f6-4546-b2d2-f7a240a4e3e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.post_full_desktop_778px_
+    - image.style.post_full_mobile_325px_
+    - image.style.post_full_tablet_476px_
+  theme:
+    - bartik
+id: post_full
+label: 'Post Full'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_full_desktop_778px_
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_full_tablet_476px_
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_full_mobile_325px_
+breakpoint_group: bartik
+fallback_image_style: post_full_desktop_778px_
