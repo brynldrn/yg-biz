@@ -3,28 +3,28 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.all_posts
+    - views.view.posts
   module:
     - system
     - views
   theme:
     - bartik
-id: views_block__all_posts_block_all_posts
+id: views_block__posts_block_all_posts
 theme: bartik
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:all_posts-block_all_posts'
+plugin: "views_block:posts-block_all_posts"
 settings:
-  id: 'views_block:all_posts-block_all_posts'
-  label: ''
+  id: "views_block:posts-block_all_posts"
+  label: ""
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: ""
   items_per_page: none
 visibility:
   request_path:
     id: request_path
     pages: /blog
     negate: false
-    context_mapping: {  }
+    context_mapping: {}
