@@ -11,13 +11,13 @@ theme: bartik
 region: content
 weight: 0
 provider: null
-plugin: "views_block:posts-block_1"
+plugin: 'views_block:posts-block_1'
 settings:
-  id: "views_block:posts-block_1"
-  label: ""
+  id: 'views_block:posts-block_1'
+  label: ''
   provider: views
   label_display: visible
-  views_label: ""
+  views_label: ''
   items_per_page: none
 visibility:
   request_path:
