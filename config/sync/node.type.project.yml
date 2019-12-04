@@ -1,4 +1,4 @@
-uuid: 286f1eb0-2933-4db1-811a-1c9850f3338b
+uuid: 212218ab-ef8b-4d93-83b2-2269b6de6d38
 langcode: en
 status: true
 dependencies:
@@ -6,11 +6,10 @@ dependencies:
     - menu_ui
 third_party_settings:
   menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
-name: Page
-type: page
+    available_menus: {  }
+    parent: ''
+name: Project
+type: project
 description: ''
 help: ''
 new_revision: true
