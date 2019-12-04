@@ -176,9 +176,9 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  block_1:
+  block_all_posts:
     display_plugin: block
-    id: block_1
+    id: block_all_posts
     display_title: 'All Posts'
     position: 1
     display_options:
@@ -190,6 +190,52 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  block_latest_posts:
+    display_plugin: block
+    id: block_latest_posts
+    display_title: 'Latest Posts'
+    position: 2
+    display_options:
+      display_extenders: {  }
+      display_description: ''
+      title: 'Latest Posts'
+      defaults:
+        title: false
+        use_more: false
+        use_more_always: false
+        use_more_text: false
+        header: false
+        pager: false
+      use_more: false
+      use_more_always: true
+      use_more_text: more
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: ''
+            format: basic_html
+          plugin_id: text
+      pager:
+        type: some
+        options:
+          items_per_page: 8
+          offset: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
