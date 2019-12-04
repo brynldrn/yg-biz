@@ -5,9 +5,9 @@ dependencies:
   config:
     - field.field.node.post.body
     - field.field.node.post.field_image
+    - field.field.node.post.field_short_description
     - node.type.post
   module:
-    - image
     - text
     - user
 id: node.post.default
@@ -18,22 +18,23 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
+    weight: 2
+    settings: {}
+    third_party_settings: {}
     region: content
   field_image:
-    weight: 102
-    label: above
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
     settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
+      view_mode: default
+      link: false
+    third_party_settings: {}
     region: content
   links:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
+    weight: 0
     region: content
-hidden: {  }
+    settings: {}
+    third_party_settings: {}
+hidden:
+  field_short_description: true

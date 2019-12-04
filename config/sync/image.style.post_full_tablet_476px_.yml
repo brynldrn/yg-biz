@@ -1,0 +1,15 @@
+uuid: 192be582-0dac-444a-a811-05877d328334
+langcode: en
+status: true
+dependencies: {  }
+name: post_full_tablet_476px_
+label: 'Post Full - Tablet (476px)'
+effects:
+  33d3be2a-8e19-420b-8b3c-d4beeacb2e42:
+    uuid: 33d3be2a-8e19-420b-8b3c-d4beeacb2e42
+    id: image_scale
+    weight: 1
+    data:
+      width: 476
+      height: null
+      upscale: false

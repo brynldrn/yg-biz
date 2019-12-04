@@ -1,0 +1,15 @@
+uuid: 5a55c544-9143-4dde-b028-9b9a7a808f00
+langcode: en
+status: true
+dependencies: {  }
+name: post_full_mobile_325px_
+label: 'Post Full - Mobile (325px)'
+effects:
+  7a1b6ded-bbe8-426d-9d9e-2c798dde273e:
+    uuid: 7a1b6ded-bbe8-426d-9d9e-2c798dde273e
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: null
+      upscale: false

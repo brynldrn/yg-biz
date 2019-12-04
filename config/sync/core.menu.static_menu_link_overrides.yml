@@ -2,13 +2,13 @@ definitions:
   contact__site_page:
     weight: -46
     menu_name: footer
-    parent: ''
+    parent: ""
     expanded: false
     enabled: true
   standard__front_page:
     weight: -50
     menu_name: main
-    parent: ''
+    parent: ""
     expanded: false
     enabled: true
 _core:
