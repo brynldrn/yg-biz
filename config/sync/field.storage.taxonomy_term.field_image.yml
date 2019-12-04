@@ -1,13 +1,13 @@
-uuid: 9fb22e34-f8a7-4631-8991-7ed92b2191ed
+uuid: e176659b-cf85-43fd-b454-d446b26fb5d4
 langcode: en
 status: true
 dependencies:
   module:
     - media
-    - node
-id: node.field_image
+    - taxonomy
+id: taxonomy_term.field_image
 field_name: field_image
-entity_type: node
+entity_type: taxonomy_term
 type: entity_reference
 settings:
   target_type: media

@@ -1,0 +1,19 @@
+uuid: 4c2fc389-4ef5-409b-91e8-89c70c217828
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_description
+    - node.type.project
+id: node.project.field_short_description
+field_name: field_short_description
+entity_type: node
+bundle: project
+label: 'Short Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
