@@ -1,0 +1,25 @@
+uuid: 8a3741aa-1844-445d-b3f3-68fe5013b630
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:29178a82-565d-41cd-b75d-a931b19f16eb'
+  module:
+    - block_content
+  theme:
+    - ygbiz
+id: ygbiz_copyright
+theme: ygbiz
+region: footer_bottom
+weight: -10
+provider: null
+plugin: 'block_content:29178a82-565d-41cd-b75d-a931b19f16eb'
+settings:
+  id: 'block_content:29178a82-565d-41cd-b75d-a931b19f16eb'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 8914e950-6729-4855-a327-9645d8ca5815
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dbd1f2b7-702e-4218-9129-c4cdf0198970'
+  module:
+    - block_content
+  theme:
+    - ygbiz
+id: ygbiz_calltoaction
+theme: ygbiz
+region: footer_top
+weight: -10
+provider: null
+plugin: 'block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970'
+settings:
+  id: 'block_content:dbd1f2b7-702e-4218-9129-c4cdf0198970'
+  label: 'Call to Action'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

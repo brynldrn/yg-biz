@@ -1,0 +1,25 @@
+uuid: bbb7b1bb-7857-42b2-afd4-2c7c07cd148c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - ygbiz
+id: ygbiz_social
+theme: ygbiz
+region: footer_middle
+weight: -8
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: Social
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

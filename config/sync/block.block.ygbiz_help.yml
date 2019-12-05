@@ -1,0 +1,22 @@
+uuid: 6c8fa9c0-08d9-4ced-81f7-e8939062b72a
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ygbiz_help
+theme: ygbiz
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

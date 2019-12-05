@@ -1,0 +1,27 @@
+uuid: 6acc970c-646d-44a2-9c60-321867f151b7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ygbiz
+id: ygbiz_views_block__posts_block_1
+theme: ygbiz
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:posts-block_1'
+settings:
+  id: 'views_block:posts-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /blog
+    negate: false
+    context_mapping: {  }

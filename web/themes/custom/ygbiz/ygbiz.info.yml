@@ -1,0 +1,15 @@
+name: YG Biz
+type: theme
+base theme: bartik
+description: YGBiz Theme
+core: 8.x
+logo: logo.png
+screenshot: screenshot.png
+regions:
+  header: Header
+  content: Content
+  footer_top: Footer Top
+  footer_middle: Footer Middle
+  footer_bottom: Footer Bottom
+  page_top: Page Top
+  page_bottom: Page Bottom

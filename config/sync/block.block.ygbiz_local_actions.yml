@@ -1,0 +1,20 @@
+uuid: 3c5996fd-3a0e-432a-b318-cef3f9652247
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ygbiz_local_actions
+theme: ygbiz
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
