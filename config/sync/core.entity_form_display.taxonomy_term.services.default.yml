@@ -7,6 +7,7 @@ dependencies:
     - field.field.taxonomy_term.services.field_short_description
     - taxonomy.vocabulary.services
   module:
+    - media_library
     - path
     - text
 id: taxonomy_term.services.default
@@ -25,11 +26,9 @@ content:
   field_image:
     weight: 5
     settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: media_library_widget
     region: content
   field_short_description:
     weight: 4

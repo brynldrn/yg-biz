@@ -27,7 +27,6 @@
         "drupal/ctools": "^3.2",
         "drupal/devel": "^2.1",
         "drupal/media_entity": "^1.8",
-        "drupal/media_entity_browser": "^1.0@beta",
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.5",
         "drupal/token": "^1.5",
