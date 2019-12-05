@@ -1,0 +1,15 @@
+uuid: 8e9012d6-b570-4e16-a29d-8f3d842b285d
+langcode: en
+status: true
+dependencies: {  }
+name: service_image_mobile_260_
+label: 'Service Image - Mobile (260)'
+effects:
+  57a616e3-b3a6-4e44-b6b1-0b97800e3ade:
+    uuid: 57a616e3-b3a6-4e44-b6b1-0b97800e3ade
+    id: image_scale
+    weight: 1
+    data:
+      width: 260
+      height: null
+      upscale: false

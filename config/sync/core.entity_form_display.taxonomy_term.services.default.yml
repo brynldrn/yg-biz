@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.services.field_image
     - field.field.taxonomy_term.services.field_short_description
     - taxonomy.vocabulary.services
   module:
@@ -21,6 +22,15 @@ content:
       placeholder: ''
       rows: 5
     third_party_settings: {  }
+  field_image:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_short_description:
     weight: 4
     settings:

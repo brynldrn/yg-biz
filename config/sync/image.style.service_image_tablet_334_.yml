@@ -1,0 +1,15 @@
+uuid: aacca59e-3bab-4dec-9ea2-bf0f5c15d271
+langcode: en
+status: true
+dependencies: {  }
+name: service_image_tablet_334_
+label: 'Service Image - Tablet (334)'
+effects:
+  4d3cbd16-896f-4567-91d1-bf9483f1e2a8:
+    uuid: 4d3cbd16-896f-4567-91d1-bf9483f1e2a8
+    id: image_scale
+    weight: 1
+    data:
+      width: 334
+      height: null
+      upscale: false
