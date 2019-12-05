@@ -1,0 +1,22 @@
+uuid: 51fe8002-c86f-4ece-adc0-65bc715393a1
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ygbiz_breadcrumbs
+theme: ygbiz
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

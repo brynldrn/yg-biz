@@ -1,0 +1,22 @@
+uuid: 1abc1bc2-be70-43f6-a5e5-017ce36efde2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ygbiz_local_tasks
+theme: ygbiz
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

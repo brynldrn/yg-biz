@@ -1,0 +1,22 @@
+uuid: fed6f33b-9397-4b81-8246-4b2ec90148ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ygbiz_content
+theme: ygbiz
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

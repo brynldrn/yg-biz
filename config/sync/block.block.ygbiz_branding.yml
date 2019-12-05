@@ -1,0 +1,25 @@
+uuid: b38cd67f-d401-4436-a644-b0027407c04f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ygbiz
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: ygbiz_branding
+theme: ygbiz
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site Branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
