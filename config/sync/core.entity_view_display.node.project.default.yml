@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.project.field_client
-    - field.field.node.project.field_image
     - field.field.node.project.field_service
     - field.field.node.project.field_short_description
     - node.type.project
@@ -22,15 +21,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_image:
-    weight: 103
-    label: hidden
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    type: entity_reference_entity_view
     region: content
   field_service:
     weight: 101

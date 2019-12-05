@@ -1,0 +1,30 @@
+uuid: fdb8a078-d766-4e6c-997b-f67f59eb219b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.post_preview_desktop_550_
+    - image.style.post_preview_mobile_290_
+    - image.style.post_preview_tablet_354_
+  theme:
+    - bartik
+id: post_preview
+label: 'Post Preview'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_preview_desktop_550_
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_preview_tablet_354_
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: post_preview_mobile_290_
+breakpoint_group: bartik
+fallback_image_style: post_preview_desktop_550_

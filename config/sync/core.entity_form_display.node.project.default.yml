@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.project.field_client
-    - field.field.node.project.field_image
     - field.field.node.project.field_service
     - field.field.node.project.field_short_description
     - node.type.project
@@ -28,15 +27,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-    region: content
-  field_image:
-    weight: 123
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
     region: content
   field_service:
     weight: 121

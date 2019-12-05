@@ -1,0 +1,15 @@
+uuid: 0eadd122-9145-4277-ba24-8c6ef4cd430d
+langcode: en
+status: true
+dependencies: {  }
+name: hero_desktop_1140x373_
+label: 'Hero Desktop (1140x373)'
+effects:
+  a8608a6b-f46c-421e-8e43-9af1dd877611:
+    uuid: a8608a6b-f46c-421e-8e43-9af1dd877611
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1140
+      height: 373
+      anchor: center-center

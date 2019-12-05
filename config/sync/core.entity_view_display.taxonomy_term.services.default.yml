@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.services.field_image
     - field.field.taxonomy_term.services.field_short_description
     - taxonomy.vocabulary.services
 id: taxonomy_term.services.default
@@ -11,15 +10,6 @@ targetEntityType: taxonomy_term
 bundle: services
 mode: default
 content:
-  field_image:
-    type: entity_reference_entity_view
-    weight: 0
-    label: hidden
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    region: content
   field_short_description:
     weight: 1
     label: hidden

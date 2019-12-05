@@ -1,0 +1,10 @@
+uuid: 8109c3e7-70d9-4ec4-9726-e58b5c62fc63
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.post_image_styles
+label: 'Post Image Styles'
+targetEntityType: media
+cache: true

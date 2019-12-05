@@ -1,10 +1,10 @@
-uuid: 665dd496-7852-43aa-86d4-0d36225e1a80
+uuid: d7fce671-aa48-435a-b9d1-035d7b0d481d
 langcode: en
 status: true
 dependencies:
   module:
     - media
-id: media.token
-label: Token
+id: media.basic_hero_styles
+label: 'Basic Hero Styles'
 targetEntityType: media
 cache: true

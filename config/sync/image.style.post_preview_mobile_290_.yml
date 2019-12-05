@@ -1,0 +1,15 @@
+uuid: e0ec178e-95de-4f69-991a-6dba16973c8f
+langcode: en
+status: true
+dependencies: {  }
+name: post_preview_mobile_290_
+label: 'Post Preview Mobile (290)'
+effects:
+  0f015a68-49c6-4464-a004-bf85b72e4623:
+    uuid: 0f015a68-49c6-4464-a004-bf85b72e4623
+    id: image_scale
+    weight: 1
+    data:
+      width: 290
+      height: null
+      upscale: false

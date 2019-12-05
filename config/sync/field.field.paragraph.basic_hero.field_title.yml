@@ -1,0 +1,21 @@
+uuid: 695fc6e3-529a-4bb9-ad61-6265f8b9d883
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.basic_hero
+  module:
+    - text
+id: paragraph.basic_hero.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: basic_hero
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

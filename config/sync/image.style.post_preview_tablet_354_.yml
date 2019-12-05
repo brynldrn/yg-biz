@@ -1,0 +1,15 @@
+uuid: 564f394c-3268-4d56-b77b-ee8a8c1b1441
+langcode: en
+status: true
+dependencies: {  }
+name: post_preview_tablet_354_
+label: 'Post Preview Tablet (354)'
+effects:
+  9b1547d4-0ce0-4582-aeaf-8d67558b25ce:
+    uuid: 9b1547d4-0ce0-4582-aeaf-8d67558b25ce
+    id: image_scale
+    weight: 1
+    data:
+      width: 354
+      height: null
+      upscale: false
