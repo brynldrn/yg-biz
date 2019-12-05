@@ -1,0 +1,32 @@
+uuid: d5c7d478-5f71-4e13-8409-dde6bc0b129a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.basic_hero.field_image
+    - field.field.paragraph.basic_hero.field_title
+    - paragraphs.paragraphs_type.basic_hero
+  module:
+    - text
+id: paragraph.basic_hero.default
+targetEntityType: paragraph
+bundle: basic_hero
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: basic_hero_styles
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

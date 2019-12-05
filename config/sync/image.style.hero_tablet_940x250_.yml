@@ -1,0 +1,15 @@
+uuid: 83bdab6b-ec23-48f4-9a60-56c7b4c2bb6b
+langcode: en
+status: true
+dependencies: {  }
+name: hero_tablet_940x250_
+label: 'Hero Tablet (940x250)'
+effects:
+  84a0cd2c-472a-4fb2-b0b4-e8e66d37a960:
+    uuid: 84a0cd2c-472a-4fb2-b0b4-e8e66d37a960
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 940
+      height: 250
+      anchor: center-center

@@ -1,0 +1,30 @@
+uuid: 7acb9f20-49b9-430f-9766-f90cb5b4af83
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.service_image_desktop_343_
+    - image.style.service_image_mobile_260_
+    - image.style.service_image_tablet_334_
+  theme:
+    - bartik
+id: service_image_styles
+label: 'Service Image Styles'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: service_image_desktop_343_
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: service_image_tablet_334_
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: service_image_mobile_260_
+breakpoint_group: bartik
+fallback_image_style: service_image_desktop_343_

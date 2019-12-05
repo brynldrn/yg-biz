@@ -1,0 +1,10 @@
+uuid: 7b97c439-2c7b-4de6-8647-045e6d4f7c89
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.post_preview_styles
+label: 'Post Preview Styles'
+targetEntityType: media
+cache: true

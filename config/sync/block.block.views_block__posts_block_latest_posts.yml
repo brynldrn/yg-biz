@@ -1,19 +1,22 @@
-uuid: c95b99ef-a06a-471e-934c-7d694a7923dc
+uuid: 41d59702-0aa0-4b21-b93e-acf711587389
 langcode: en
 status: true
 dependencies:
+  config:
+    - views.view.posts
   module:
     - system
+    - views
   theme:
     - bartik
-id: views_block__posts_block_1
+id: views_block__posts_block_latest_posts
 theme: bartik
 region: content
 weight: 0
 provider: null
-plugin: 'views_block:posts-block_1'
+plugin: 'views_block:posts-block_latest_posts'
 settings:
-  id: 'views_block:posts-block_1'
+  id: 'views_block:posts-block_latest_posts'
   label: ''
   provider: views
   label_display: visible
@@ -22,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /blog
+    pages: '<front>'
     negate: false
-    context_mapping: {}
+    context_mapping: {  }

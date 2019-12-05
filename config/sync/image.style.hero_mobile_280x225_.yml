@@ -1,0 +1,15 @@
+uuid: a2a0d9d2-1ff6-4d67-9581-1c6fbe80ed31
+langcode: en
+status: true
+dependencies: {  }
+name: hero_mobile_280x225_
+label: 'Hero Mobile (280x225)'
+effects:
+  a84c2c9b-7de1-4904-8574-515499d2d158:
+    uuid: a84c2c9b-7de1-4904-8574-515499d2d158
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 280
+      height: 225
+      anchor: center-center

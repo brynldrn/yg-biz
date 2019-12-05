@@ -1,0 +1,15 @@
+uuid: e9b22da6-c605-434a-8b98-6d2854897d08
+langcode: en
+status: true
+dependencies: {  }
+name: post_preview_desktop_550_
+label: 'Post Preview Desktop (550)'
+effects:
+  808d31a3-8fa7-4270-a92a-6240983aa6d5:
+    uuid: 808d31a3-8fa7-4270-a92a-6240983aa6d5
+    id: image_scale
+    weight: 1
+    data:
+      width: 550
+      height: null
+      upscale: false

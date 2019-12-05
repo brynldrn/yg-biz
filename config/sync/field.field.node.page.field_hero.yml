@@ -1,0 +1,31 @@
+uuid: e7382754-1844-4c9d-b35d-d203e61d8b3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero
+    - node.type.page
+    - paragraphs.paragraphs_type.basic_hero
+  module:
+    - entity_reference_revisions
+id: node.page.field_hero
+field_name: field_hero
+entity_type: node
+bundle: page
+label: Hero
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      basic_hero: basic_hero
+    target_bundles_drag_drop:
+      basic_hero:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

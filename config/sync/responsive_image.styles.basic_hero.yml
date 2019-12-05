@@ -1,0 +1,30 @@
+uuid: cb199dcc-638e-41b5-be88-6401e62ae0ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.hero_desktop_1140x373_
+    - image.style.hero_mobile_280x225_
+    - image.style.hero_tablet_940x250_
+  theme:
+    - bartik
+id: basic_hero
+label: 'Basic Hero'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero_desktop_1140x373_
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero_tablet_940x250_
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: hero_mobile_280x225_
+breakpoint_group: bartik
+fallback_image_style: hero_desktop_1140x373_

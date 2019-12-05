@@ -1,0 +1,9 @@
+uuid: c675090f-bc4b-413e-b664-c4c308699b3c
+langcode: en
+status: true
+dependencies: {  }
+id: basic_hero
+label: 'Basic Hero'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

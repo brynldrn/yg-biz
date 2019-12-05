@@ -1,0 +1,10 @@
+uuid: 2b5180d9-9675-467f-bb27-96bd26730416
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.service_image_styles
+label: 'Service Image Styles'
+targetEntityType: media
+cache: true

@@ -3,8 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.page.field_hero
     - node.type.page
   module:
+    - paragraphs
     - path
 id: node.page.default
 targetEntityType: node
@@ -17,6 +19,24 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_hero:
+    type: paragraphs
+    weight: 121
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+    third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 30

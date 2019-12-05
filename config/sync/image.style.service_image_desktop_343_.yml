@@ -1,0 +1,15 @@
+uuid: 2430d0dc-5ecf-450d-a811-3e58ec2fd1d9
+langcode: en
+status: true
+dependencies: {  }
+name: service_image_desktop_343_
+label: 'Service Image - Desktop (343)'
+effects:
+  4b52f000-a4a4-4b69-a7aa-c31a1709597a:
+    uuid: 4b52f000-a4a4-4b69-a7aa-c31a1709597a
+    id: image_scale
+    weight: 1
+    data:
+      width: 343
+      height: null
+      upscale: false
