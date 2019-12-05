@@ -1,0 +1,9 @@
+uuid: a33c877b-65a4-4c07-a881-51afd619c2d3
+langcode: en
+status: true
+dependencies: {  }
+id: posts
+label: Posts
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

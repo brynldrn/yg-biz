@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.page.field_components
     - field.field.node.page.field_hero
     - node.type.page
   module:
@@ -19,6 +20,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_components:
+    type: entity_reference_paragraphs
+    weight: 122
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
   field_hero:
     type: paragraphs
     weight: 121

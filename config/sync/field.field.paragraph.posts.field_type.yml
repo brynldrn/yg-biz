@@ -1,0 +1,27 @@
+uuid: 6fe95e6d-2c1b-42c2-a1b6-88fd26f1393d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.posts
+  module:
+    - block_field
+id: paragraph.posts.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: posts
+label: Type
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'views_block:posts-block_all_posts'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    'views_block:posts-block_all_posts': 'views_block:posts-block_all_posts'
+    'views_block:posts-block_latest_posts': 'views_block:posts-block_latest_posts'
+field_type: block_field
