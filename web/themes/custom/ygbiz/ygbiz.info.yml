@@ -13,3 +13,7 @@ regions:
   footer_bottom: Footer Bottom
   page_top: Page Top
   page_bottom: Page Bottom
+libraries:
+  - core/normalize
+  - ygbiz/global
+  - ygbiz/bootstrap-js

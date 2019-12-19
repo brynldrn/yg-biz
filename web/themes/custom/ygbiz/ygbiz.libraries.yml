@@ -1,0 +1,26 @@
+global:
+  version: 1.0
+  css:
+    base:
+      dist/css/fontawesome.min.css: {}
+      dist/css/bootstrap.min.css: {}
+      dist/css/magnific-popup.css: {}
+      dist/css/carousel.css: {}
+      dist/css/animate.css: {}
+      dist/css/custom.css: {}
+      //fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400:
+        { type: external }
+  js:
+    dist/js/wow.min.js: {}
+    dist/js/carousel.js: {}
+    dist/js/owl.carousel.min.js: {}
+    dist/js/magnific-popup.min.js: {}
+    dist/js/gallery.js: {}
+    dist/js/main.js: {}
+
+bootstrap-js:
+  header: true
+  js:
+    dist/js/jquery.min.js: {}
+    dist/js/popper.min.js: {}
+    dist/js/bootstrap.min.js: {}
