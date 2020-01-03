@@ -1,3 +1,11 @@
+body {
+  background-color: white !important;
+}
+
+a {
+  border: none !important;
+}
+
 h1,
 h2,
 h3,
@@ -229,7 +237,7 @@ a.btn.btn-link.btn-infos {
   margin-left: -20px;
 }
 .blog-carousel .owl-prev i {
-  content: '\f104';
+  content: "\f104";
   font-size: 24px;
   color: #f95b5c;
 }
@@ -238,7 +246,7 @@ a.btn.btn-link.btn-infos {
   margin-right: -20px;
 }
 .blog-carousel .owl-next i {
-  content: '\f105';
+  content: "\f105";
   font-size: 24px;
   color: #f95b5c;
 }
@@ -822,7 +830,7 @@ img {
   font-size: 14px;
   font-weight: 700;
 }
-.personal input[type='text'],
+.personal input[type="text"],
 .personal textarea {
   width: 79%;
   border: 1px solid #ccc;
@@ -852,7 +860,7 @@ form {
 #get-in-touch {
   padding: 55px 0;
 }
-#get-in-touch .contact-form input[type='text'],
+#get-in-touch .contact-form input[type="text"],
 #get-in-touch .contact-form textarea {
   width: 100%;
   margin-left: 0;
@@ -957,7 +965,7 @@ iframe {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1200px) {
-  .personal input[type='text'],
+  .personal input[type="text"],
   .personal textarea {
     margin-left: 0;
   }
@@ -1005,7 +1013,7 @@ iframe {
   #about .about-page-img {
     min-width: 100%;
   }
-  .personal input[type='text'],
+  .personal input[type="text"],
   .personal textarea {
     width: 100%;
     margin-bottom: 0;
@@ -1029,7 +1037,7 @@ iframe {
   .blog-carousel .owl-nav {
     display: none;
   }
-  .personal input[type='text'],
+  .personal input[type="text"],
   .personal textarea {
     width: 100%;
     margin-bottom: 0;
@@ -1111,7 +1119,7 @@ iframe {
     margin-left: -26px;
     width: 90%;
   }
-  .personal input[type='text'],
+  .personal input[type="text"],
   .personal textarea {
     width: 100%;
     margin-bottom: 0;
@@ -1144,7 +1152,7 @@ iframe {
   .blog-carousel .owl-nav {
     display: none;
   }
-  #footer [class*=' col-'] {
+  #footer [class*=" col-"] {
     margin-bottom: 30px;
   }
   .navbar-light .navbar-nav .nav-link {
