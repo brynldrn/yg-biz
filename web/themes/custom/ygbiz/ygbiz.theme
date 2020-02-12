@@ -6,3 +6,16 @@ function ygbiz_preprocess_paragraph__posts(&$variables) {
 
     // kint($variables['content']['field_type'][0]['content']);
 }
+
+// function ygbiz_preprocess_media(&$variables) {
+//   kint($variables['content']['field_media_image']);
+// }
+
+function ygbiz_preprocess_paragraph__basic_hero(&$variables) {
+  $path = \Drupal::request()->attributes->get('_system_path');
+  $current_uri = \Drupal::request()->getRequestUri();
+  $current_path = \Drupal::service('path.current')->getPath();
+  $result = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+
+  $variables['path'] = $result;
+}

@@ -43,23 +43,8 @@
  */
 #}
 {{ page.header }}
-
-<main role="main">
-	<a id="main-content" tabindex="-1"></a>
-	{# link is in html.html.twig #}
-
-	<div class="layout-content">
-		{{ page.content }}
-	</div>
-	{# /.layout-content #}
-
-</main>
-
-
+{{ page.content }}
 {{ page.footer_top }}
 {{ page.footer_middle }}
-
-<footer role="contentinfo">
-	{{ page.footer_bottom }}
-</footer>
+{{ page.footer_bottom }}
 {# /.layout-container #}
