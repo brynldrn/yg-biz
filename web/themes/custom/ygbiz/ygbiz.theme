@@ -16,6 +16,13 @@ function ygbiz_preprocess_paragraph__basic_hero(&$variables) {
   $current_uri = \Drupal::request()->getRequestUri();
   $current_path = \Drupal::service('path.current')->getPath();
   $result = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+  $page = '';
 
-  $variables['path'] = $result;
+  if ( strpos($result, 'about') ) {
+    $page = 'about';
+  } else if ( strpos($result, 'blog') ) {
+    $page = 'blog';
+  }
+
+  $variables['page'] = $page;
 }

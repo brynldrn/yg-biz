@@ -1,14 +1,10 @@
 {% block content %}
-	{% if 'about' in path %}
-		<section id="about-banner">
-		{% else %}
-			<section>
-			{% endif %}
-			{{ elements['field_image'] }}
-			<div class="about-banner-caption mx-auto">
-				<h1>
-					<span>{{ elements['field_title'] }}</span>
-				</h1>
-			</div>
-		</section>
-	{% endblock %}
+	<section id="{{page}}-banner">
+		{{ elements['field_image'] }}
+		<div class="{{page}}-banner-caption mx-auto">
+			<h1>
+				<span>{{ elements['field_title'] }}</span>
+			</h1>
+		</div>
+	</section>
+{% endblock %}
