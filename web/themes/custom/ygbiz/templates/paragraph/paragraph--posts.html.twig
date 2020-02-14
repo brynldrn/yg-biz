@@ -1,0 +1,15 @@
+{% set all_posts = 'block_all_posts' %}
+{% set latest_posts = 'block_latest_posts' %}
+
+{% if content.field_type[0].content['#display_id'] == latest_posts %}
+	<section id="blog" class="wow fadeInUp">
+		<div class="container">
+			<h2>{{ content.field_title }}</h2>
+			{{ content.field_type }}
+		</div>
+	</section>
+{% elseif content.field_type[0].content['#display_id'] == all_posts %}
+	<section class="sub blog-bg" id="blog">
+		{{ content }}
+	</section>
+{% endif %}

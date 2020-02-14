@@ -1,0 +1,5 @@
+{% for key, row in rows %}
+	<div class="item wow {{ key % 2 == 0 ? 'fadeInLeft' : 'fadeInRight' }}">
+		{{- row.content -}}
+	</div>
+{% endfor %}

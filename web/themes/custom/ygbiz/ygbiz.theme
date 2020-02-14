@@ -1,12 +1,5 @@
 <?php
 
-function ygbiz_preprocess_paragraph__posts(&$variables) {
-    $override_title = $variables['content']['field_title'][0]['#text'];
-    $variables['content']['field_type'][0]['content']['header'] = $override_title;
-
-    // kint($variables['content']['field_type'][0]['content']);
-}
-
 // function ygbiz_preprocess_media(&$variables) {
 //   kint($variables['content']['field_media_image']);
 // }
