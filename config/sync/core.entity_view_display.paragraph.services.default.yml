@@ -1,0 +1,31 @@
+uuid: e5d2d8ff-1460-4571-a070-f3e8b652756e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.services.field_title
+    - field.field.paragraph.services.field_type
+    - paragraphs.paragraphs_type.services
+  module:
+    - block_field
+    - text
+id: paragraph.services.default
+targetEntityType: paragraph
+bundle: services
+mode: default
+content:
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_type:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

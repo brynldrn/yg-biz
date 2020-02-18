@@ -1,0 +1,10 @@
+uuid: 6909ee15-1872-40aa-99ef-4cb026a18ada
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.homepage_view
+label: 'Homepage View'
+targetEntityType: taxonomy_term
+cache: true

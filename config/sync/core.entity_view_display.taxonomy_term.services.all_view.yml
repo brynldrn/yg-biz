@@ -1,0 +1,32 @@
+uuid: be80b6bd-33da-431d-8eb1-b7c0903398d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.all_view
+    - field.field.taxonomy_term.services.field_image
+    - field.field.taxonomy_term.services.field_short_description
+    - taxonomy.vocabulary.services
+id: taxonomy_term.services.all_view
+targetEntityType: taxonomy_term
+bundle: services
+mode: all_view
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: service_image_styles
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_short_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  description: true

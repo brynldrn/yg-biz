@@ -1,0 +1,27 @@
+uuid: fa281304-a8e3-4154-9c30-3c9ed7726327
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.services
+  module:
+    - block_field
+id: paragraph.services.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: services
+label: Type
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    plugin_id: 'views_block:services-block_all_services'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    'views_block:services-block_all_services': 'views_block:services-block_all_services'
+    'views_block:services-block_homepage_services': 'views_block:services-block_homepage_services'
+field_type: block_field

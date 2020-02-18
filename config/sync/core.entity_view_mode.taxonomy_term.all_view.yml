@@ -1,0 +1,10 @@
+uuid: e8713c05-8aea-4f54-b70b-2d30cd97e4d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.all_view
+label: 'All View'
+targetEntityType: taxonomy_term
+cache: true
