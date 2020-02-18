@@ -7,24 +7,24 @@ dependencies:
     - image.style.service_image_mobile_260_
     - image.style.service_image_tablet_334_
   theme:
-    - bartik
+    - ygbiz
 id: service_image_styles
 label: 'Service Image Styles'
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: ygbiz.desktop
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: service_image_desktop_343_
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: ygbiz.tablet
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: service_image_tablet_334_
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: ygbiz.mobile
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: service_image_mobile_260_
-breakpoint_group: bartik
+breakpoint_group: ygbiz
 fallback_image_style: service_image_desktop_343_

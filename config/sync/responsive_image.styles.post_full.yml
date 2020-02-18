@@ -7,24 +7,24 @@ dependencies:
     - image.style.post_full_mobile_325px_
     - image.style.post_full_tablet_476px_
   theme:
-    - bartik
+    - ygbiz
 id: post_full
 label: 'Post Full'
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: ygbiz.desktop
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: post_full_desktop_778px_
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: ygbiz.tablet
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: post_full_tablet_476px_
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: ygbiz.mobile
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: post_full_mobile_325px_
-breakpoint_group: bartik
+breakpoint_group: ygbiz
 fallback_image_style: post_full_desktop_778px_

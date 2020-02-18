@@ -7,24 +7,24 @@ dependencies:
     - image.style.hero_mobile_280x225_
     - image.style.hero_tablet_940x250_
   theme:
-    - bartik
+    - ygbiz
 id: basic_hero
 label: 'Basic Hero'
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: ygbiz.desktop
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: hero_desktop_1140x373_
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: ygbiz.tablet
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: hero_tablet_940x250_
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: ygbiz.mobile
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: hero_mobile_280x225_
-breakpoint_group: bartik
+breakpoint_group: ygbiz
 fallback_image_style: hero_desktop_1140x373_
