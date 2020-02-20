@@ -1,0 +1,11 @@
+entity_type: node
+bundle: post
+content:
+  post_1:
+    uuid: fe8f936b-2961-4142-b001-9c50e735fb5d
+    title: "Hello World"
+    body:
+      value: "Hello world from dsadsa Demo Content."
+      format: plain_text
+    field_short_description:
+      value: "Hello world from dsadsa Demo Content."

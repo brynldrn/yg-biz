@@ -17,3 +17,8 @@ libraries:
   - core/normalize
   - ygbiz/global
   - ygbiz/bootstrap-js
+dependencies:
+  - demo_content
+demo_content:
+  - content/file.file.yml
+  - content/node.post.yml

@@ -25,6 +25,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/ctools": "^3.2",
+        "drupal/demo_content": "1.x-dev",
         "drupal/devel": "^2.1",
         "drupal/media_entity": "^1.8",
         "drupal/paragraphs": "^1.10",
