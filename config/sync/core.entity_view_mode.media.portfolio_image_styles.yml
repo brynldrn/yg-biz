@@ -1,0 +1,10 @@
+uuid: 87f5ec32-da13-4e51-b33b-39925a90e3b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.portfolio_image_styles
+label: 'Portfolio Image Styles'
+targetEntityType: media
+cache: true

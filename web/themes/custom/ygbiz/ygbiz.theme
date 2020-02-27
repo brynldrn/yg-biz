@@ -17,6 +17,8 @@ function ygbiz_preprocess_paragraph__basic_hero(&$variables) {
     $page = 'blog';
   } else if ( strpos($result, 'services') ) {
     $page = 'services';
+  } else if ( strpos($result, 'portfolio') ) {
+    $page = 'portfolio';
   }
 
   $variables['page'] = $page;
@@ -33,4 +35,11 @@ function ygbiz_theme_suggestions_taxonomy_term_alter(array &$suggestions, array 
   $suggestions[] = 'taxonomy_term__' . $sanitized_view_mode;
   $suggestions[] = 'taxonomy_term__' . $term->bundle() . '__' . $sanitized_view_mode;
   $suggestions[] = 'taxonomy_term__' . $term->id() . '__' . $sanitized_view_mode;
+}
+
+function ygbiz_preprocess_views_view_unformatted__projects__block_grid_all(&$variables) {
+  foreach ($variables['rows'] as $key => $value) {
+    $term_literal = taxonomy_term_load($variables['rows'][$key]['content']['#node']->field_service->target_id)->get('name')->getString();
+    $variables['rows'][$key]['content']['#node']->field_service_literal = $term_literal;
+  }
 }

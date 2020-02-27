@@ -1,0 +1,40 @@
+uuid: bdf9eb11-d4f8-4853-afcc-088a89f9ef43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.projects.field_sub_text
+    - field.field.paragraph.projects.field_title
+    - field.field.paragraph.projects.field_type
+    - paragraphs.paragraphs_type.projects
+  module:
+    - block_field
+    - text
+id: paragraph.projects.default
+targetEntityType: paragraph
+bundle: projects
+mode: default
+content:
+  field_sub_text:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_type:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

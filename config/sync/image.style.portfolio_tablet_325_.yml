@@ -1,0 +1,15 @@
+uuid: d66c62ea-d87f-46e5-a20a-ef5836827d3e
+langcode: en
+status: true
+dependencies: {  }
+name: portfolio_tablet_325_
+label: 'Portfolio - Tablet (325)'
+effects:
+  3a5dd59b-4c57-4c0c-b9ce-1e12aaff9701:
+    uuid: 3a5dd59b-4c57-4c0c-b9ce-1e12aaff9701
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: null
+      upscale: false

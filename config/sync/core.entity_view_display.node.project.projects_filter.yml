@@ -1,0 +1,31 @@
+uuid: dd03b265-fca0-4aee-9e41-922180351059
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.projects_filter
+    - field.field.node.project.field_client
+    - field.field.node.project.field_image
+    - field.field.node.project.field_service
+    - field.field.node.project.field_short_description
+    - node.type.project
+  module:
+    - user
+id: node.project.projects_filter
+targetEntityType: node
+bundle: project
+mode: projects_filter
+content:
+  field_service:
+    weight: 0
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_client: true
+  field_image: true
+  field_short_description: true
+  links: true

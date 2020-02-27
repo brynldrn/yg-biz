@@ -1,0 +1,45 @@
+uuid: 4439e1c1-a3a5-4439-9788-e3c00e8c1226
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.projects.field_sub_text
+    - field.field.paragraph.projects.field_title
+    - field.field.paragraph.projects.field_type
+    - paragraphs.paragraphs_type.projects
+  module:
+    - block_field
+    - text
+id: paragraph.projects.default
+targetEntityType: paragraph
+bundle: projects
+mode: default
+content:
+  field_sub_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_type:
+    weight: 2
+    settings:
+      configuration_form: hidden
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+hidden:
+  created: true
+  status: true

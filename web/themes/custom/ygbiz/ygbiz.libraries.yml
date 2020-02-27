@@ -24,3 +24,4 @@ bootstrap-js:
     dist/js/jquery.min.js: {}
     dist/js/popper.min.js: {}
     dist/js/bootstrap.min.js: {}
+    dist/js/isotope.pkgd.min.js: {}

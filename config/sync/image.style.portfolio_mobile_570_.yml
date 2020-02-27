@@ -1,0 +1,15 @@
+uuid: c197527b-5755-46a2-b464-c7ea93445f3d
+langcode: en
+status: true
+dependencies: {  }
+name: portfolio_mobile_570_
+label: 'Portfolio - Mobile (570)'
+effects:
+  1bcacb01-16f2-4bc1-8aa4-e458f6e48379:
+    uuid: 1bcacb01-16f2-4bc1-8aa4-e458f6e48379
+    id: image_scale
+    weight: 1
+    data:
+      width: 570
+      height: null
+      upscale: false

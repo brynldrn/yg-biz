@@ -1,0 +1,32 @@
+uuid: 275db47b-bf16-4d90-becd-baebeee13d45
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.portfolio_image_styles
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.portfolio_image_styles
+  module:
+    - responsive_image
+_core:
+  default_config_hash: jOwnt_yq6AKAfqU6f0xKnxEkFQ2eTPJWxrk3WMLbL68
+id: media.image.portfolio_image_styles
+targetEntityType: media
+bundle: image
+mode: portfolio_image_styles
+content:
+  field_media_image:
+    label: visually_hidden
+    settings:
+      responsive_image_style: portfolio_image_styles
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    weight: 1
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

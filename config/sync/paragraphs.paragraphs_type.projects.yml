@@ -1,0 +1,9 @@
+uuid: bc4d8a7f-454c-40b9-b0aa-e6582e64fe23
+langcode: en
+status: true
+dependencies: {  }
+id: projects
+label: Projects
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

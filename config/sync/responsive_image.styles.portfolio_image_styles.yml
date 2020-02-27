@@ -1,0 +1,30 @@
+uuid: 9001bbcc-cc96-454e-b14e-0d550d218b23
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.portfolio_desktop_384_
+    - image.style.portfolio_mobile_570_
+    - image.style.portfolio_tablet_325_
+  theme:
+    - ygbiz
+id: portfolio_image_styles
+label: 'Portfolio Image Styles'
+image_style_mappings:
+  -
+    breakpoint_id: ygbiz.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_desktop_384_
+  -
+    breakpoint_id: ygbiz.tablet
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_tablet_325_
+  -
+    breakpoint_id: ygbiz.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: portfolio_mobile_570_
+breakpoint_group: ygbiz
+fallback_image_style: portfolio_desktop_384_

@@ -1,0 +1,26 @@
+uuid: ce524c7d-61d8-4a3f-aa73-3306d96078ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.projects
+  module:
+    - block_field
+id: paragraph.projects.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: projects
+label: Type
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    plugin_id: 'views_block:projects-block_grid_all'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    'views_block:projects-block_grid_all': 'views_block:projects-block_grid_all'
+field_type: block_field

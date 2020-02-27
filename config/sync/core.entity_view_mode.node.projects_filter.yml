@@ -1,0 +1,10 @@
+uuid: 11e0f414-9a8a-4743-a7e2-c353049b15e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.projects_filter
+label: 'Projects Filter'
+targetEntityType: node
+cache: true
