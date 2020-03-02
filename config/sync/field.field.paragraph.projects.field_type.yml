@@ -22,5 +22,6 @@ default_value:
 default_value_callback: ''
 settings:
   plugin_ids:
+    'views_block:projects-block_featured': 'views_block:projects-block_featured'
     'views_block:projects-block_grid_all': 'views_block:projects-block_grid_all'
 field_type: block_field

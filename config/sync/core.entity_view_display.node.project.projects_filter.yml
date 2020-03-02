@@ -1,6 +1,6 @@
 uuid: dd03b265-fca0-4aee-9e41-922180351059
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.projects_filter

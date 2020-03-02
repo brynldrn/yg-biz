@@ -1,6 +1,6 @@
 uuid: 3c38b32c-9a82-495c-a57f-2a638b7623fc
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -48,9 +48,5 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  links: true

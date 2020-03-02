@@ -1,3 +1,17 @@
-<section id="portfolio" class="sub text-center">
-	{{ content.field_type }}
-</section>
+{% set grid_all = 'block_grid_all' %}
+{% set featured = 'block_featured' %}
+
+{% if content.field_type[0].content['#display_id'] == featured %}
+	<section id="portfolio" class="text-center">
+		<div class="container">
+			<h2>{{ content.field_title }}</h2>
+			<p>{{ content.field_sub_text }}</p>
+			{{ content.field_type }}
+			<a href="/portfolio" class="btn btn-infos">Load More</a>
+		</div>
+	</section>
+{% elseif content.field_type[0].content['#display_id'] == grid_all %}
+	<section id="portfolio" class="sub text-center">
+		{{ content.field_type }}
+	</section>
+{% endif %}
