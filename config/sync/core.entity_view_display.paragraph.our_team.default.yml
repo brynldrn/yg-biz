@@ -1,0 +1,31 @@
+uuid: 1befcb38-a7ef-488c-87f5-73f695db2e45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_team.field_title
+    - field.field.paragraph.our_team.field_type
+    - paragraphs.paragraphs_type.our_team
+  module:
+    - block_field
+    - text
+id: paragraph.our_team.default
+targetEntityType: paragraph
+bundle: our_team
+mode: default
+content:
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_type:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

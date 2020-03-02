@@ -1,0 +1,55 @@
+uuid: b1af2ca9-2a8e-45d6-a8eb-a3493f262bca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.grid
+    - field.field.node.person.field_designation
+    - field.field.node.person.field_image
+    - field.field.node.person.field_name
+    - field.field.node.person.field_social_links
+    - node.type.person
+  module:
+    - entity_reference_revisions
+    - user
+id: node.person.grid
+targetEntityType: node
+bundle: person
+mode: grid
+content:
+  field_designation:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: our_team_styles
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_social_links:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  links: true

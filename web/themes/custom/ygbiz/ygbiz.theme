@@ -43,3 +43,10 @@ function ygbiz_preprocess_views_view_unformatted__projects__block_grid_all(&$var
     $variables['rows'][$key]['content']['#node']->field_service_literal = $term_literal;
   }
 }
+
+function ygbiz_preprocess_paragraph__social_link(&$variables) {
+  $literal_url = $variables['content']['field_url'][0]['#title'];
+  $literal_type = $variables['content']['field_social_media'][0]['#markup'];
+  $variables['content']['literal_url'] = $literal_url;
+  $variables['content']['literal_type'] = $literal_type;
+}

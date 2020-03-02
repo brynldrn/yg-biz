@@ -1,0 +1,15 @@
+uuid: ba7296ce-7663-4d5d-a1fc-71afbe2d5408
+langcode: en
+status: true
+dependencies: {  }
+name: team_image_desktop_262_
+label: 'Team Image Desktop (262)'
+effects:
+  44955776-6e08-436b-85be-fe28b9fb55d7:
+    uuid: 44955776-6e08-436b-85be-fe28b9fb55d7
+    id: image_scale
+    weight: 1
+    data:
+      width: 262
+      height: null
+      upscale: false

@@ -1,0 +1,15 @@
+uuid: 5f9fc2aa-0c7b-494a-8084-a18d2b8b1ea9
+langcode: en
+status: true
+dependencies: {  }
+name: team_image_mobile_290_
+label: 'Team Image Mobile (290)'
+effects:
+  f261b86a-b0f5-4f9d-a832-8c3ceed07204:
+    uuid: f261b86a-b0f5-4f9d-a832-8c3ceed07204
+    id: image_scale
+    weight: 1
+    data:
+      width: 290
+      height: null
+      upscale: false

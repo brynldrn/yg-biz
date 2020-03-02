@@ -1,0 +1,10 @@
+uuid: 14e7811e-e556-496c-8f82-b1c6ef4d9500
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.our_team_styles
+label: 'Our Team Styles'
+targetEntityType: media
+cache: true

@@ -1,0 +1,15 @@
+uuid: 6666c5e4-c83a-4b11-b845-febbdb6782bd
+langcode: en
+status: true
+dependencies: {  }
+name: team_image_tablet_354_
+label: 'Team Image Tablet (354)'
+effects:
+  da53afb4-34f5-4865-9274-f0b22a654e69:
+    uuid: da53afb4-34f5-4865-9274-f0b22a654e69
+    id: image_scale
+    weight: 1
+    data:
+      width: 354
+      height: null
+      upscale: false

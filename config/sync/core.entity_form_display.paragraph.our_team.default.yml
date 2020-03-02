@@ -1,0 +1,36 @@
+uuid: d906ff65-adec-41de-80b6-bf903df1378c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_team.field_title
+    - field.field.paragraph.our_team.field_type
+    - paragraphs.paragraphs_type.our_team
+  module:
+    - block_field
+    - text
+id: paragraph.our_team.default
+targetEntityType: paragraph
+bundle: our_team
+mode: default
+content:
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_type:
+    weight: 1
+    settings:
+      configuration_form: hidden
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,28 @@
+uuid: 7a1c7429-db40-4b99-8826-3e9525ce4573
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person.field_designation
+    - field.field.node.person.field_image
+    - field.field.node.person.field_name
+    - field.field.node.person.field_social_links
+    - node.type.person
+  module:
+    - user
+id: node.person.teaser
+targetEntityType: node
+bundle: person
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_designation: true
+  field_image: true
+  field_name: true
+  field_social_links: true

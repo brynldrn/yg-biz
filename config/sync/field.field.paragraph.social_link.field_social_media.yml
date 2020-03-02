@@ -1,0 +1,21 @@
+uuid: 001db3ed-8e91-47d4-a736-9b27625e7dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_social_media
+    - paragraphs.paragraphs_type.social_link
+  module:
+    - options
+id: paragraph.social_link.field_social_media
+field_name: field_social_media
+entity_type: paragraph
+bundle: social_link
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

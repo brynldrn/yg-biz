@@ -1,0 +1,36 @@
+uuid: 119052ec-0b50-48b4-ad19-1827e7e7e09f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_social_media
+field_name: field_social_media
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: twitter
+      label: Twitter
+    -
+      value: facebook
+      label: Facebook
+    -
+      value: instagram
+      label: Instagram
+    -
+      value: google-plus
+      label: 'Google Plus'
+    -
+      value: pinterest
+      label: Pinterest
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
