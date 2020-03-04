@@ -1,0 +1,15 @@
+uuid: 1e49b658-6ae9-4ded-b708-0f7e3ac04d3b
+langcode: en
+status: true
+dependencies: {  }
+name: content_block_desktop_570_
+label: 'Content Block Desktop (570)'
+effects:
+  35cf4139-66e3-442a-8193-a1fe0103799a:
+    uuid: 35cf4139-66e3-442a-8193-a1fe0103799a
+    id: image_scale
+    weight: 1
+    data:
+      width: 570
+      height: null
+      upscale: false

@@ -1,0 +1,21 @@
+uuid: 0372a1bf-6168-4059-8370-6c006654f101
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.content_block
+  module:
+    - text
+id: paragraph.content_block.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: content_block
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

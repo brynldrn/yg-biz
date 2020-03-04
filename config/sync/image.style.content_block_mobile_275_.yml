@@ -1,0 +1,15 @@
+uuid: 1bd2bf6f-7be5-47f7-ae23-6b0089e727e4
+langcode: en
+status: true
+dependencies: {  }
+name: content_block_mobile_275_
+label: 'Content Block Mobile (275)'
+effects:
+  d211b86d-139e-4ed1-90c6-789bc3df7b17:
+    uuid: d211b86d-139e-4ed1-90c6-789bc3df7b17
+    id: image_scale
+    weight: 1
+    data:
+      width: 275
+      height: null
+      upscale: false

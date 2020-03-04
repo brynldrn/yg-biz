@@ -1,0 +1,10 @@
+uuid: 5acb96a1-c613-4772-8147-559ed0f39df2
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.content_block_image
+label: 'Content Block Image'
+targetEntityType: media
+cache: true

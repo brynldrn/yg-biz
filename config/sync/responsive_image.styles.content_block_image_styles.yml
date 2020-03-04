@@ -1,0 +1,30 @@
+uuid: 4e0a3009-456d-4850-bd7a-b06c02dc5bba
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.content_block_desktop_570_
+    - image.style.content_block_mobile_275_
+    - image.style.content_block_tablet_738_
+  theme:
+    - ygbiz
+id: content_block_image_styles
+label: 'Content Block Image Styles'
+image_style_mappings:
+  -
+    breakpoint_id: ygbiz.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: content_block_desktop_570_
+  -
+    breakpoint_id: ygbiz.tablet
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: content_block_tablet_738_
+  -
+    breakpoint_id: ygbiz.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: content_block_mobile_275_
+breakpoint_group: ygbiz
+fallback_image_style: content_block_desktop_570_

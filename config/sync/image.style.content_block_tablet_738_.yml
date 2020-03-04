@@ -1,0 +1,15 @@
+uuid: 1419e2e4-d78e-4dd4-8fbb-1314637f8db8
+langcode: en
+status: true
+dependencies: {  }
+name: content_block_tablet_738_
+label: 'Content Block Tablet (738)'
+effects:
+  4c581f04-8062-4379-a474-f92b7008f914:
+    uuid: 4c581f04-8062-4379-a474-f92b7008f914
+    id: image_scale
+    weight: 1
+    data:
+      width: 738
+      height: null
+      upscale: false
