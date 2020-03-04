@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_components
     - node.type.page
+    - paragraphs.paragraphs_type.featured_persons
     - paragraphs.paragraphs_type.our_team
     - paragraphs.paragraphs_type.posts
     - paragraphs.paragraphs_type.projects
@@ -30,6 +31,7 @@ settings:
       services: services
       projects: projects
       our_team: our_team
+      featured_persons: featured_persons
     target_bundles_drag_drop:
       basic_hero:
         weight: 3
@@ -46,6 +48,9 @@ settings:
       our_team:
         enabled: true
         weight: 8
+      featured_persons:
+        enabled: true
+        weight: 9
       social_link:
         weight: 12
         enabled: false

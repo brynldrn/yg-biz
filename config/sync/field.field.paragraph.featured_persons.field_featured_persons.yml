@@ -1,0 +1,28 @@
+uuid: e4d3ccba-5845-49ff-bac5-94f45324dfa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_featured_persons
+    - node.type.person
+    - paragraphs.paragraphs_type.featured_persons
+id: paragraph.featured_persons.field_featured_persons
+field_name: field_featured_persons
+entity_type: paragraph
+bundle: featured_persons
+label: 'Featured Persons'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
