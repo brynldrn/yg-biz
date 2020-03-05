@@ -1,0 +1,33 @@
+uuid: 084d1c8b-7532-4edb-a7bd-e726c78a3380
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_pricing.field_pricing_items
+    - field.field.paragraph.our_pricing.field_title
+    - paragraphs.paragraphs_type.our_pricing
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.our_pricing.default
+targetEntityType: paragraph
+bundle: our_pricing
+mode: default
+content:
+  field_pricing_items:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

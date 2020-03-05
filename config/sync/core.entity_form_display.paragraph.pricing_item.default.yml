@@ -1,0 +1,54 @@
+uuid: 194b6e33-a69e-4d18-9690-e2c0bd490caa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pricing_item.field_cta
+    - field.field.paragraph.pricing_item.field_features
+    - field.field.paragraph.pricing_item.field_price
+    - field.field.paragraph.pricing_item.field_title
+    - paragraphs.paragraphs_type.pricing_item
+  module:
+    - link
+    - text
+id: paragraph.pricing_item.default
+targetEntityType: paragraph
+bundle: pricing_item
+mode: default
+content:
+  field_cta:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_features:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_price:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

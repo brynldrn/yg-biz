@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.client_testimonials
     - paragraphs.paragraphs_type.content_block
     - paragraphs.paragraphs_type.featured_persons
+    - paragraphs.paragraphs_type.our_pricing
     - paragraphs.paragraphs_type.our_team
     - paragraphs.paragraphs_type.posts
     - paragraphs.paragraphs_type.projects
@@ -38,6 +39,7 @@ settings:
       content_block: content_block
       client_testimonials: client_testimonials
       carousel_hero: carousel_hero
+      our_pricing: our_pricing
     target_bundles_drag_drop:
       basic_hero:
         weight: 3
@@ -71,5 +73,11 @@ settings:
         weight: 13
       carousel_hero_item:
         weight: 14
+        enabled: false
+      our_pricing:
+        enabled: true
+        weight: 20
+      pricing_item:
+        weight: 23
         enabled: false
 field_type: entity_reference_revisions

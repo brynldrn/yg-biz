@@ -1,0 +1,9 @@
+uuid: 89b2faa3-535e-4f70-8c05-ad816663cc4c
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_item
+label: 'Pricing Item'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

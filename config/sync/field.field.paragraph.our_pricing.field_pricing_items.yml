@@ -1,0 +1,67 @@
+uuid: d9285ac9-a20a-4aa9-ba79-99176c34e31c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pricing_items
+    - paragraphs.paragraphs_type.our_pricing
+    - paragraphs.paragraphs_type.pricing_item
+  module:
+    - entity_reference_revisions
+id: paragraph.our_pricing.field_pricing_items
+field_name: field_pricing_items
+entity_type: paragraph
+bundle: our_pricing
+label: 'Pricing Items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      pricing_item: pricing_item
+    target_bundles_drag_drop:
+      basic_hero:
+        weight: 14
+        enabled: false
+      carousel_hero:
+        weight: 15
+        enabled: false
+      carousel_hero_item:
+        weight: 16
+        enabled: false
+      client_testimonials:
+        weight: 17
+        enabled: false
+      content_block:
+        weight: 18
+        enabled: false
+      featured_persons:
+        weight: 19
+        enabled: false
+      our_pricing:
+        weight: 20
+        enabled: false
+      our_team:
+        weight: 21
+        enabled: false
+      posts:
+        weight: 22
+        enabled: false
+      pricing_item:
+        enabled: true
+        weight: 23
+      projects:
+        weight: 24
+        enabled: false
+      services:
+        weight: 25
+        enabled: false
+      social_link:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

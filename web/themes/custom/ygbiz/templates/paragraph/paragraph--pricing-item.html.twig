@@ -1,0 +1,10 @@
+<div class="col-md-4 col-sm-4 col-xs-12 price text-center wow fadeInLeft">
+	<h4>{{ content.field_title }}</h4>
+	<p>$<span>{{ content.field_price }}</span>
+	</p>
+	<div class="features">
+		<h6>Features</h6>
+		{{ content.field_features }}
+	</div>
+	<a href="{{ content.field_cta.0['#url_title'] }}" class="btn btn-infos">{{ content.field_cta.0['#title'] }}</a>
+</div>
