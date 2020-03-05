@@ -1,0 +1,7 @@
+uuid: fcac6f6b-22ab-4c6c-a830-cfab1b34bfc3
+langcode: en
+status: true
+dependencies: {  }
+name: carousel_hero_tablet_768_
+label: 'Carousel Hero Tablet (768)'
+effects: {  }

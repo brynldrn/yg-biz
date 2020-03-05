@@ -1,0 +1,10 @@
+uuid: ced9c619-5aab-48ab-97ef-a3efb94bfcb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.carousel_hero_image
+label: 'Carousel Hero Image'
+targetEntityType: media
+cache: true

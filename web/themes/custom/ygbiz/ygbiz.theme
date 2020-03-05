@@ -50,3 +50,9 @@ function ygbiz_preprocess_paragraph__social_link(&$variables) {
   $variables['content']['literal_url'] = $literal_url;
   $variables['content']['literal_type'] = $literal_type;
 }
+
+function ygbiz_preprocess_paragraph__carousel_hero(&$variables) {
+  $first = $variables['content']['field_carousel_hero_items']['#items']->first()->get('target_id')->getValue();
+  $count = $variables['content']['field_carousel_hero_items']['#items']->count();
+  $variables['count'] = $count;
+}

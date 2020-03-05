@@ -1,19 +1,18 @@
-uuid: e7382754-1844-4c9d-b35d-d203e61d8b3c
+uuid: b76fe01b-baf1-4f76-9fc6-0ec42cae14b7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_hero
-    - node.type.page
-    - paragraphs.paragraphs_type.basic_hero
+    - field.storage.paragraph.field_carousel_hero_items
     - paragraphs.paragraphs_type.carousel_hero
+    - paragraphs.paragraphs_type.carousel_hero_item
   module:
     - entity_reference_revisions
-id: node.page.field_hero
-field_name: field_hero
-entity_type: node
-bundle: page
-label: Hero
+id: paragraph.carousel_hero.field_carousel_hero_items
+field_name: field_carousel_hero_items
+entity_type: paragraph
+bundle: carousel_hero
+label: 'Carousel Hero Items'
 description: ''
 required: true
 translatable: false
@@ -24,18 +23,17 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      basic_hero: basic_hero
-      carousel_hero: carousel_hero
+      carousel_hero_item: carousel_hero_item
     target_bundles_drag_drop:
       basic_hero:
-        enabled: true
-        weight: 2
-      carousel_hero:
-        enabled: true
-        weight: 13
-      carousel_hero_item:
-        weight: 14
+        weight: 12
         enabled: false
+      carousel_hero:
+        weight: 13
+        enabled: false
+      carousel_hero_item:
+        enabled: true
+        weight: 14
       client_testimonials:
         weight: 15
         enabled: false

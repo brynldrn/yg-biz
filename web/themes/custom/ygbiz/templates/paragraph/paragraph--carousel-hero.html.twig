@@ -1,0 +1,12 @@
+<section id="banner-slider">
+	<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			{% for i in 0..count-1 %}
+				<li data-target="#carouselIndicators" data-slide-to="{{ i }}" class="{{ i == 0 ? 'active' : '' }}"></li>
+			{% endfor %}
+		</ul>
+		<div class="carousel-inner" role="listbox">
+			{{ content.field_carousel_hero_items }}
+		</div>
+	</div>
+</section>

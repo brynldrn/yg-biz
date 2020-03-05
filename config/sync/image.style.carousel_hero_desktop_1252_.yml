@@ -1,0 +1,15 @@
+uuid: 12d21c0b-7b7c-455e-bc02-8832ff522c04
+langcode: en
+status: true
+dependencies: {  }
+name: carousel_hero_desktop_1252_
+label: 'Carousel Hero Desktop (1252)'
+effects:
+  f8315304-89ff-49be-ad21-f3f5097a8cf6:
+    uuid: f8315304-89ff-49be-ad21-f3f5097a8cf6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1252
+      height: null
+      upscale: false

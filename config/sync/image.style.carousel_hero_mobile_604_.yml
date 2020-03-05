@@ -1,0 +1,15 @@
+uuid: f88ccdbd-aba2-4412-9a6d-f36f2a07b328
+langcode: en
+status: true
+dependencies: {  }
+name: carousel_hero_mobile_604_
+label: 'Carousel Hero Mobile (604)'
+effects:
+  aa1d8a7d-34df-47c7-a502-3cf0d26c9381:
+    uuid: aa1d8a7d-34df-47c7-a502-3cf0d26c9381
+    id: image_scale
+    weight: 1
+    data:
+      width: 604
+      height: null
+      upscale: false

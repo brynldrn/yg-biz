@@ -1,0 +1,30 @@
+uuid: 59563dec-f817-4fc0-a8cb-f26123490bf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.carousel_hero_desktop_1252_
+    - image.style.carousel_hero_mobile_604_
+    - image.style.carousel_hero_tablet_768_
+  theme:
+    - ygbiz
+id: carousel_hero_image_styles
+label: 'Carousel Hero Image Styles'
+image_style_mappings:
+  -
+    breakpoint_id: ygbiz.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: carousel_hero_desktop_1252_
+  -
+    breakpoint_id: ygbiz.tablet
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: carousel_hero_tablet_768_
+  -
+    breakpoint_id: ygbiz.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: carousel_hero_mobile_604_
+breakpoint_group: ygbiz
+fallback_image_style: carousel_hero_desktop_1252_

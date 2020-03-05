@@ -1,0 +1,21 @@
+uuid: dc22f051-459d-42ad-a82e-5a41b37d452f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.carousel_hero_item
+  module:
+    - text
+id: paragraph.carousel_hero_item.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: carousel_hero_item
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
