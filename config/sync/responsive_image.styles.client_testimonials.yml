@@ -1,0 +1,28 @@
+uuid: c8facbd7-642c-4a49-8956-4c6655faa91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.client_testimonials_136x136_
+  theme:
+    - ygbiz
+id: client_testimonials
+label: 'Client Testimonials'
+image_style_mappings:
+  -
+    breakpoint_id: ygbiz.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: client_testimonials_136x136_
+  -
+    breakpoint_id: ygbiz.tablet
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: client_testimonials_136x136_
+  -
+    breakpoint_id: ygbiz.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: client_testimonials_136x136_
+breakpoint_group: ygbiz
+fallback_image_style: client_testimonials_136x136_

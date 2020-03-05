@@ -1,0 +1,26 @@
+uuid: bb5cefa8-80fd-43c0-b309-4d6b49231f8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_type
+    - paragraphs.paragraphs_type.client_testimonials
+  module:
+    - block_field
+id: paragraph.client_testimonials.field_type
+field_name: field_type
+entity_type: paragraph
+bundle: client_testimonials
+label: Type
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    plugin_id: 'views_block:testimonials-block_testimonials'
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    'views_block:testimonials-block_testimonials': 'views_block:testimonials-block_testimonials'
+field_type: block_field

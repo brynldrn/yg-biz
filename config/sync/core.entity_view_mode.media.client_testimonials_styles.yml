@@ -1,0 +1,10 @@
+uuid: f3009eac-29a5-45eb-9768-bc8e48d6aa6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.client_testimonials_styles
+label: 'Client Testimonials Styles'
+targetEntityType: media
+cache: true

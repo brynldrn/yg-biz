@@ -1,0 +1,31 @@
+uuid: 6593b98e-6607-4eab-b7a7-3a806a55f16b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.client_testimonials.field_title
+    - field.field.paragraph.client_testimonials.field_type
+    - paragraphs.paragraphs_type.client_testimonials
+  module:
+    - block_field
+    - text
+id: paragraph.client_testimonials.default
+targetEntityType: paragraph
+bundle: client_testimonials
+mode: default
+content:
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_type:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

@@ -1,0 +1,15 @@
+uuid: ac492f9f-2626-41c0-b7f3-b2dff9a77fff
+langcode: en
+status: true
+dependencies: {  }
+name: client_testimonials_136x136_
+label: 'Client Testimonials (136x136)'
+effects:
+  fdad3297-e503-4446-b71a-284d58c0eb27:
+    uuid: fdad3297-e503-4446-b71a-284d58c0eb27
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 136
+      height: 136
+      anchor: center-center

@@ -1,0 +1,9 @@
+uuid: abf9a29c-7c9b-45d7-9973-b3d74d6cad37
+langcode: en
+status: true
+dependencies: {  }
+id: client_testimonials
+label: 'Client Testimonials'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
