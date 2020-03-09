@@ -1,0 +1,12 @@
+uuid: 646459d5-507b-4f07-90c1-2a2de04a2ce8
+langcode: en
+status: true
+dependencies: {  }
+id: ygbiz_contact_form
+label: 'YGBiz Contact Form'
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: Sample
+redirect: ''

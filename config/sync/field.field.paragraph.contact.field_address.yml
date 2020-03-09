@@ -1,0 +1,19 @@
+uuid: d9abc91b-f720-411c-b719-8ac39d39a39a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address
+    - paragraphs.paragraphs_type.contact
+id: paragraph.contact.field_address
+field_name: field_address
+entity_type: paragraph
+bundle: contact
+label: Address
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

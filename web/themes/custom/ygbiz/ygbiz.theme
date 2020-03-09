@@ -19,6 +19,8 @@ function ygbiz_preprocess_paragraph__basic_hero(&$variables) {
     $page = 'services';
   } else if ( strpos($result, 'portfolio') ) {
     $page = 'portfolio';
+  } else if ( strpos($result, 'contact') ) {
+    $page = 'contact';
   }
 
   $variables['page'] = $page;

@@ -1,0 +1,19 @@
+uuid: 5ce807ea-e69a-4ee9-8054-f9807e187e69
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.ygbiz_contact_form
+    - field.storage.contact_message.field_email
+id: contact_message.ygbiz_contact_form.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: ygbiz_contact_form
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
