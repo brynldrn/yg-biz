@@ -10,6 +10,7 @@ dependencies:
     - paragraphs.paragraphs_type.contact
     - paragraphs.paragraphs_type.content_block
     - paragraphs.paragraphs_type.featured_persons
+    - paragraphs.paragraphs_type.map
     - paragraphs.paragraphs_type.our_pricing
     - paragraphs.paragraphs_type.our_team
     - paragraphs.paragraphs_type.posts
@@ -42,6 +43,7 @@ settings:
       carousel_hero: carousel_hero
       contact: contact
       our_pricing: our_pricing
+      map: map
     target_bundles_drag_drop:
       basic_hero:
         weight: 3
@@ -82,6 +84,9 @@ settings:
       our_pricing:
         enabled: true
         weight: 20
+      map:
+        enabled: true
+        weight: 23
       pricing_item:
         weight: 23
         enabled: false
