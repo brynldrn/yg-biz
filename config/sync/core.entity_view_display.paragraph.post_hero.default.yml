@@ -1,0 +1,32 @@
+uuid: 106a2782-b2cb-4f14-b31c-6ac8373eae3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.post_hero.field_image
+    - field.field.paragraph.post_hero.field_title
+    - paragraphs.paragraphs_type.post_hero
+  module:
+    - text
+id: paragraph.post_hero.default
+targetEntityType: paragraph
+bundle: post_hero
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: basic_hero_styles
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

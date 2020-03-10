@@ -26,6 +26,11 @@ function ygbiz_preprocess_paragraph__basic_hero(&$variables) {
   $variables['page'] = $page;
 }
 
+function ygbiz_preprocess_paragraph__post_hero(&$variables) {
+  $node = \Drupal::request()->attributes->get('node');
+  $variables['title'] = strlen($variables['content']['field_title'][0]['#text']) == 0 ? $node->getTitle() : $variables['content']['field_title'][0]['#text'];
+}
+
 /**
  * Implements hook_theme_suggestions_taxonomy_term_alter().
  */

@@ -1,23 +1,21 @@
-uuid: e7382754-1844-4c9d-b35d-d203e61d8b3c
+uuid: 9bbd5c0a-7ecd-4289-91a2-30e56badefd2
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_hero
-    - node.type.page
-    - paragraphs.paragraphs_type.basic_hero
-    - paragraphs.paragraphs_type.carousel_hero
+    - node.type.post
     - paragraphs.paragraphs_type.post_hero
   module:
     - entity_reference_revisions
-id: node.page.field_hero
+id: node.post.field_hero
 field_name: field_hero
 entity_type: node
-bundle: page
+bundle: post
 label: Hero
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -25,45 +23,28 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      basic_hero: basic_hero
-      carousel_hero: carousel_hero
       post_hero: post_hero
     target_bundles_drag_drop:
       basic_hero:
-        enabled: true
-        weight: 2
-      carousel_hero:
-        enabled: true
-        weight: 13
-      carousel_hero_item:
-        weight: 14
-        enabled: false
-      client_testimonials:
-        weight: 15
-        enabled: false
-      content_block:
-        weight: 16
-        enabled: false
-      featured_persons:
         weight: 17
         enabled: false
-      our_team:
+      carousel_hero:
         weight: 18
         enabled: false
-      posts:
+      carousel_hero_item:
         weight: 19
         enabled: false
-      projects:
+      client_testimonials:
         weight: 20
         enabled: false
       contact:
         weight: 21
         enabled: false
-      services:
-        weight: 21
-        enabled: false
-      social_link:
+      content_block:
         weight: 22
+        enabled: false
+      featured_persons:
+        weight: 23
         enabled: false
       map:
         weight: 24
@@ -71,10 +52,25 @@ settings:
       our_pricing:
         weight: 25
         enabled: false
+      our_team:
+        weight: 26
+        enabled: false
+      posts:
+        weight: 27
+        enabled: false
       post_hero:
         enabled: true
         weight: 28
       pricing_item:
         weight: 29
+        enabled: false
+      projects:
+        weight: 30
+        enabled: false
+      services:
+        weight: 31
+        enabled: false
+      social_link:
+        weight: 32
         enabled: false
 field_type: entity_reference_revisions

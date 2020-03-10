@@ -1,0 +1,9 @@
+uuid: 6a1c4818-698d-4ea1-a144-63f3a0fc1e26
+langcode: en
+status: true
+dependencies: {  }
+id: post_hero
+label: 'Post Hero'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
